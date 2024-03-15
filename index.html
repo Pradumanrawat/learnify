@@ -21,8 +21,9 @@
       
       height: 100%;
         width: 100%;
+        position: fixed;
        
-        object-fit: cover;
+        object-fit: fill;
         
         -webkit-backdrop-filter: blur(30px);
         
@@ -35,7 +36,7 @@
       text-align: center;
       height: 600px;
     width: 999px;
-    background-color: blanchedalmond;
+    background-color: transparent;
     position: absolute;
     top: 122px;
     left: 212px;
@@ -52,10 +53,20 @@
     .card button{
       font-size: 20px;
       text-transform: uppercase;
-      height: 200px;
+      height: 47px;
+      width: 154px;
+      font-weight: bolder;
+      border-radius: 20px;
+      border-top-left-radius: 0;
+      justify-content: center;
+      margin-left: 444px;
 
     }
- 
+ .name{
+  height: 56px;
+  width: 56px;
+  background-color: black;
+ }
 </style>
 </head>
 <body>
@@ -113,9 +124,11 @@
         <div class="card">
           <h4>welcome to learnify</h4>
           <button>get in</button>
+         
           
 
         </div>
+       
     </div>
 
 
